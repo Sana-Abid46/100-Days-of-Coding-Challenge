@@ -3,3 +3,7 @@
 let personName = "Sana";
 
 console.log(`"Hello ${personName}, would you like to learn some Typescript today?”`);
+ 
+// RESULT
+ 
+// "Hello Sana, would you like to learn some Typescript today?”
