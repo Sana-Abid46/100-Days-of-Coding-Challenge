@@ -13,3 +13,4 @@ guests.forEach(function (invited) {
 });
 // guests.splice(0,2);
 console.log("\nTotal guests:\n" + guests.length);
+
