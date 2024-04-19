@@ -9,21 +9,20 @@
 let age = 20;
 
 if (age < 2) {
-    console.log("person is a baby");
-}
+  console.log("person is a baby");
+} 
 else if (age >= 2 && age < 4) {
-    console.log("person is a toddler");
+  console.log("person is a toddler");
 }
-else if (age >= 4 && age < 13) {
-    console.log("person is a kid");
-}
+ else if (age >= 4 && age < 13) {
+  console.log("person is a kid");
+} 
 else if (age >= 13 && age < 20) {
-    console.log("person is a teenager");
-}
+  console.log("person is a teenager");
+} 
 else if (age >= 20 && age < 65) {
-    console.log("person is an adult"); // TRUE
+  console.log("person is an adult"); // TRUE
 }
-else if (age == 65 && age > 65 ) {
-   console.log(" person is an elder");
-   
+ else if (age == 65 && age > 65) {
+  console.log(" person is an elder");
 }
