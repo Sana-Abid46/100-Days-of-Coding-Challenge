@@ -4,8 +4,4 @@ function make_shirt(size: string, message: string) {
     console.log(`Size: ${size}, Message: ${message}`);
 }
 
-make_shirt("Small", "I love TypeScript");
-
-make_shirt( "Medium", "InshaAllah Future programmer");
-
 make_shirt( "Large", "#Coding #programming");
