@@ -3,5 +3,5 @@ function make_shirt(size, message) {
     console.log("Size: ".concat(size, ", Message: ").concat(message));
 }
 make_shirt("Small", "I love TypeScript");
-make_shirt("Medium,", "InshaAllah Future programmer");
-make_shirt("Large,", "#Coding #programming");
+make_shirt("Medium", "InshaAllah Future programmer");
+make_shirt("Large", "#Coding #programming");
