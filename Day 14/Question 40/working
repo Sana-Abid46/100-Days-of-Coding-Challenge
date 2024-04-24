@@ -1,0 +1,23 @@
+Ye TypeScript code hai jismein hum make_album naam ka function define kar rahe hain. Is function mein hum teen parameters le rahe hain: artist (ek string), title (ek string), aur tracks (ek optional number). Function ek object return karta hai jismein artist (string), title (string), aur tracks (optional number) ke properties hote hain.
+
+Function ke body mein, hum album naam ka object banate hain jismein artist aur title properties hote hain, aur unhe function ke arguments ke values se initialize kiya jata hai. Object ka type hum explicitly define karte hain, jismein artist aur title string type ke hona zaroori hai, aur tracks ek optional number type property hai.
+
+Agar tracks parameter provide kiya gaya hai (yaani ki wo undefined nahi hai), to hum album object ke tracks property ko uske value se assign karte hain. Isse tracks property optional ban jati hai, kyunki ye depend karta hai ki function ko call karte waqt tracks parameter diya gaya hai ya nahi.
+
+Function ke ant mein, function album object ko return karta hai.
+
+Function ko alag-alag arguments ke saath call kiya jata hai aur returned objects ko console.log se print kiya jata hai.
+
+
+
+
+
+Tracks parameter ke saath question mark (?) isliye hai kyunki ye ek optional parameter hai. Jab hum function call karte hain, agar hum tracks ki value provide karte hain, to ye parameter function ke andar use hota hai aur uski value assigned hoti hai. Lekin agar hum tracks ki value provide nahi karte hain, to function us parameter ko ignore karta hai aur default value undefined le leta hai.
+
+Is question mark ke saath tracks parameter ke sath ye declare hota hai ki ye parameter optional hai, matlab agar iski value provide nahi ki gayi to bhi function chalega.
+
+
+
+
+
+
