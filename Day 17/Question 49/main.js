@@ -8,5 +8,5 @@ function hobbies() {
     }
     console.log("".concat(hobby, "\t\n enjoy that hobby\t\n"));
 }
-hobbies("Reading books", "Collecting stamps");
-hobbies("Cooking", "Learning");
+hobbies("Cycling", "Coding");
+hobbies("Cooking", "Reading books");

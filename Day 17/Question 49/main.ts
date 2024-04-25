@@ -6,4 +6,4 @@ function hobbies(...hobby: string[]) {
     console.log(`${hobby}\t\n enjoy that hobby\t\n`);
 }
 hobbies("Cycling", "Coding")
-hobbies("Cooking", "Reading books")
+hobbies("Cooking", "Reading books");
