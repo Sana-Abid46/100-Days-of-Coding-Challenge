@@ -11,6 +11,7 @@ function daysUntilNewYear(): number {
     const diff = newYear.getTime() - today.getTime(); // Difference in milliseconds
     const days = Math.ceil(diff / (1000 * 60 * 60 * 24)); // Converts to days
     return days;
+    
 }
 
 console.log(daysUntilNewYear() + " days until New Year.");
