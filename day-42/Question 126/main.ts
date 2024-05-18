@@ -16,7 +16,7 @@ let obj: myObject = {
 
 // yahan hum arrow function he dein gay warna undefined a jay ga
 // its a nested function
-    const innerfunc =  () => {
+   let innerfunc = () => {
       console.log(`Hello ${this.name} your age is ${this.age}`);
     };
 
